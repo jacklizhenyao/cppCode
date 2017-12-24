@@ -38,19 +38,19 @@ namespace c{
 
 using namespace c;//使用using 关键字引用namespace，必须放在命名空间后面，否则会找不到命名空间
 
-int main(void){
-	//1、不声明命名空间 直接使用::调用test_a test_b中的成员
-	cout << "1、不声明命名空间 直接使用::调用test_a test_b中的成员" << endl;
-
-	int i=0;
-	cin >> i ;
-	
-	cout << test_a::test(i) << endl;
-	cout << test_b::test() << endl;
-
-	//2、引入命名空间 直接调用test_c 中的成员
-	cout << "2、引入命名空间 直接调用test_c 中的成员" << endl;
-	cout << test() << endl;
-	system("pause");
-	return 0;
-}
+//int main(void){
+//	//1、不声明命名空间 直接使用::调用test_a test_b中的成员
+//	cout << "1、不声明命名空间 直接使用::调用test_a test_b中的成员" << endl;
+//
+//	int i=0;
+//	cin >> i ;
+//	
+//	cout << test_a::test(i) << endl;
+//	cout << test_b::test() << endl;
+//
+//	//2、引入命名空间 直接调用test_c 中的成员
+//	cout << "2、引入命名空间 直接调用test_c 中的成员" << endl;
+//	cout << test() << endl;
+//	system("pause");
+//	return 0;
+//}
